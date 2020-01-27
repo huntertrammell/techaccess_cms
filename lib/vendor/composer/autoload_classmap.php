@@ -20,9 +20,6 @@ return array(
     'Firebase\\JWT\\ExpiredException' => $vendorDir . '/firebase/php-jwt/src/ExpiredException.php',
     'Firebase\\JWT\\JWT' => $vendorDir . '/firebase/php-jwt/src/JWT.php',
     'Firebase\\JWT\\SignatureInvalidException' => $vendorDir . '/firebase/php-jwt/src/SignatureInvalidException.php',
-    'League\\ColorExtractor\\Color' => $vendorDir . '/league/color-extractor/src/League/ColorExtractor/Color.php',
-    'League\\ColorExtractor\\ColorExtractor' => $vendorDir . '/league/color-extractor/src/League/ColorExtractor/ColorExtractor.php',
-    'League\\ColorExtractor\\Palette' => $vendorDir . '/league/color-extractor/src/League/ColorExtractor/Palette.php',
     'League\\Flysystem\\AdapterInterface' => $vendorDir . '/league/flysystem/src/AdapterInterface.php',
     'League\\Flysystem\\Adapter\\AbstractAdapter' => $vendorDir . '/league/flysystem/src/Adapter/AbstractAdapter.php',
     'League\\Flysystem\\Adapter\\AbstractFtpAdapter' => $vendorDir . '/league/flysystem/src/Adapter/AbstractFtpAdapter.php',
@@ -87,5 +84,4 @@ return array(
     'ZipStream\\Exception\\InvalidOptionException' => $vendorDir . '/maennchen/zipstream-php/src/Exception/InvalidOptionException.php',
     'ZipStream\\Exception\\StreamNotReadableException' => $vendorDir . '/maennchen/zipstream-php/src/Exception/StreamNotReadableException.php',
     'ZipStream\\ZipStream' => $vendorDir . '/maennchen/zipstream-php/src/ZipStream.php',
-    'claviska\\SimpleImage' => $vendorDir . '/claviska/simpleimage/src/claviska/SimpleImage.php',
 );

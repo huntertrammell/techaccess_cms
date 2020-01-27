@@ -52,18 +52,7 @@ class ComposerStaticInit3043aff3db8446d21c22f36f77adce25
         ),
     );
 
-    public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/..' . '/league/color-extractor/src',
-    );
-
     public static $prefixesPsr0 = array (
-        'c' => 
-        array (
-            'claviska' => 
-            array (
-                0 => __DIR__ . '/..' . '/claviska/simpleimage/src',
-            ),
-        ),
         'P' => 
         array (
             'ParsedownExtra' => 
@@ -92,9 +81,6 @@ class ComposerStaticInit3043aff3db8446d21c22f36f77adce25
         'Firebase\\JWT\\ExpiredException' => __DIR__ . '/..' . '/firebase/php-jwt/src/ExpiredException.php',
         'Firebase\\JWT\\JWT' => __DIR__ . '/..' . '/firebase/php-jwt/src/JWT.php',
         'Firebase\\JWT\\SignatureInvalidException' => __DIR__ . '/..' . '/firebase/php-jwt/src/SignatureInvalidException.php',
-        'League\\ColorExtractor\\Color' => __DIR__ . '/..' . '/league/color-extractor/src/League/ColorExtractor/Color.php',
-        'League\\ColorExtractor\\ColorExtractor' => __DIR__ . '/..' . '/league/color-extractor/src/League/ColorExtractor/ColorExtractor.php',
-        'League\\ColorExtractor\\Palette' => __DIR__ . '/..' . '/league/color-extractor/src/League/ColorExtractor/Palette.php',
         'League\\Flysystem\\AdapterInterface' => __DIR__ . '/..' . '/league/flysystem/src/AdapterInterface.php',
         'League\\Flysystem\\Adapter\\AbstractAdapter' => __DIR__ . '/..' . '/league/flysystem/src/Adapter/AbstractAdapter.php',
         'League\\Flysystem\\Adapter\\AbstractFtpAdapter' => __DIR__ . '/..' . '/league/flysystem/src/Adapter/AbstractFtpAdapter.php',
@@ -159,7 +145,6 @@ class ComposerStaticInit3043aff3db8446d21c22f36f77adce25
         'ZipStream\\Exception\\InvalidOptionException' => __DIR__ . '/..' . '/maennchen/zipstream-php/src/Exception/InvalidOptionException.php',
         'ZipStream\\Exception\\StreamNotReadableException' => __DIR__ . '/..' . '/maennchen/zipstream-php/src/Exception/StreamNotReadableException.php',
         'ZipStream\\ZipStream' => __DIR__ . '/..' . '/maennchen/zipstream-php/src/ZipStream.php',
-        'claviska\\SimpleImage' => __DIR__ . '/..' . '/claviska/simpleimage/src/claviska/SimpleImage.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -167,7 +152,6 @@ class ComposerStaticInit3043aff3db8446d21c22f36f77adce25
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit3043aff3db8446d21c22f36f77adce25::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit3043aff3db8446d21c22f36f77adce25::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInit3043aff3db8446d21c22f36f77adce25::$fallbackDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit3043aff3db8446d21c22f36f77adce25::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit3043aff3db8446d21c22f36f77adce25::$classMap;
 
