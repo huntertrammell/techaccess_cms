@@ -1,2 +1,2 @@
 [config]
-command = php composer.phar install
+command = apache2ctl -D FOREGROUND
