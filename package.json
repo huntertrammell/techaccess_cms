@@ -24,5 +24,6 @@
         "type": "opencollective",
         "url": "https://opencollective.com/cockpit",
         "logo": "https://opencollective.com/opencollective/logo.txt"
-    }
+    },
+     "engines" : { "node" : ">=0.10.3 <0.12" } 
 }
